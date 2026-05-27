@@ -649,7 +649,7 @@ public class Options {
         } else {
             return i == 100 ? genericValueLabel(p_231913_, Component.translatable("options.gamma.max")) : genericValueLabel(p_231913_, i);
         }
-    }, OptionInstance.UnitDouble.INSTANCE, 0.5, p_357643_ -> {
+    }, OptionInstance.UnitDouble.INSTANCE, 10.0, p_357643_ -> {
     });
     public static final int AUTO_GUI_SCALE = 0;
     private static final int MAX_GUI_SCALE_INCLUSIVE = 2147483646;
